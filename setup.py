@@ -17,9 +17,13 @@ setup(name='talon',
           "lxml==2.3.3",
           "regex>=1",
           "html2text",
-          "nose>=1.2.1",
+          "numpy",
+          "scipy",
+          "scikit-learn==0.16.1", # pickled versions of classifier, else rebuild
+          ],
+      tests_require=[
           "mock",
-          "coverage",
-          "scikit-learn",
+          "nose>=1.2.1",
+          "coverage"
           ]
       )
