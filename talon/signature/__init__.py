@@ -22,8 +22,8 @@ trained against, don't forget to regenerate:
 
 import os
 
-from . import extraction
-from . extraction import extract  #noqa
+# from . import extraction
+# from . extraction import extract  #noqa
 from . learning import classifier
 
 
@@ -33,6 +33,6 @@ EXTRACTOR_FILENAME = os.path.join(DATA_DIR, 'classifier')
 EXTRACTOR_DATA = os.path.join(DATA_DIR, 'train.data')
 
 
-def initialize():
-    extraction.EXTRACTOR = classifier.load(EXTRACTOR_FILENAME,
-                                           EXTRACTOR_DATA)
+# def initialize():
+    # extraction.EXTRACTOR = classifier.load(EXTRACTOR_FILENAME,
+    #                                        EXTRACTOR_DATA)

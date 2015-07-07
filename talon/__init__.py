@@ -4,4 +4,4 @@ from talon import signature
 
 def init():
     register_xpath_extensions()
-    signature.initialize()
+    # signature.initialize()

@@ -1,0 +1,10 @@
+cssselect==0.9.1
+html2text==2015.6.21
+lxml==3.4.4
+mercurial==3.1.1
+mock==1.0.1
+nose==1.3.7
+py==1.4.30
+pytest==2.7.2
+regex==2015.06.24
+wsgiref==0.1.2
